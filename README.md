@@ -1,7 +1,7 @@
 # Diseño de Instagram en React
 ## La manera en que se planteo este diseño fue la siguiente:
 ## Componentes de la parte Home:
-**********************
+
 ## 1. Header:         
 ## 1.1 navbar //Azul              
 ## 1.1.1 iconosHeader   
