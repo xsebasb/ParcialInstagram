@@ -13,9 +13,9 @@
 ## 3. Feedcard
 ## 3.1 FeedHeader //Naranja 
 ## 3.1.2 FeedImage
-## 3.1.3 FeedReaccion
-## 3.1.4 FeedDescription
-## 3.1.1 FeedComentarios
+## 3.1.3 FeedReaccion //Morado 
+## 3.1.4 FeedDescription //Amarillo
+## 3.1.1 FeedComentarios //Rosado
 **********************
 ## 4. Perfil //Verde
 
