@@ -2,13 +2,13 @@
 ## La manera en que se planteo este diseño fue la siguiente:
 ## Componentes de la parte Home:
 
-## 1. Header:         
+## 1. Header: -Contiene toda la parte del navbar distribuida cada cosa por un componente.        
 ## 1.1 navbar //Azul              
 ## 1.1.1 iconosHeader   
 ## 1.1.2 logos            
 ## 1.1.3 search         
 **********************
-## 2. Historias //Rojo  
+## 2. Historias //Rojo  -Con tiene las historias de los usuarios en un componente.
 **********************
 ## 3. Feedcard
 ## 3.1 FeedHeader //Naranja 
