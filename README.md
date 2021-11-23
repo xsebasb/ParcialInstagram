@@ -2,11 +2,15 @@
 La manera en que se planteo este diseño fue la siguiente:
 Componentes:
 **********************
-## -Header           
+## -Header:            
 ## --navbar           
 ## ---iconosHeader   
 ## ---logos            
 ## ---search         
+**********************
+## -Historias
+**********************
+
 
 
 
