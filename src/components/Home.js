@@ -21,7 +21,7 @@ const Home = () => {
         return size;
     };
     const [width] = useWindowSize();
-        if(width > 800 || width < 1000){
+        if(width > 800){
             return (
                 <div>                    
                     <Header>
