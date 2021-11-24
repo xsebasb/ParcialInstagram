@@ -14,9 +14,6 @@ const Search = () => {
 };
 
     return (
-        // <input  style={_stylesSearch.inputTextSearch} type="search" placeholder="Buscar" 
-        //         onMouseEnter={() => setBgColour("#e1e1e1")}
-        //         onMouseLeave={() => setBgColour("#efefef")} />
         <FormControl
             type="search"
             placeholder="Buscar"

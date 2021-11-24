@@ -93,6 +93,7 @@ const Perfil = () => {
         textR:{
             textDecoration: 'none',
             color: '#1597f6',
+            margin: '0', padding: '0',
             marginRight: '18px',
             fontWeight:'bold'
         },
@@ -124,7 +125,7 @@ const Perfil = () => {
             <img src="https://picsum.photos/66/76" alt="" style={_stylesPerfil.img}/>
             <div style={_stylesPerfil.cuentaCenter}>
                 <a href="http://localhost:3000/" style={_stylesPerfil.textB}>JuanM78</a>
-                <a href="http://localhost:3000/" style={_stylesPerfil.text}>Juan Manuel Martinez</a>
+                <p style={_stylesPerfil.text}>Juan Manuel Martinez</p>
             </div>  
             <a href="http://localhost:3000/" style={_stylesPerfil.textR}>Cambiar</a>
             </div>
@@ -134,58 +135,78 @@ const Perfil = () => {
             </div>
             <div style={_stylesPerfil.containerPerfil_4}>
             <div style={_stylesPerfil.containerSuggest_21}>
+            <div style={{display: "flex"}}>
                 <img src="https://picsum.photos/66/77" alt="" style={_stylesPerfil.img2}/>
                 <div style={_stylesPerfil.cuentaCenter}>
+                <div style={{display: "flex", flexDirection: "column", marginLeft:'20px'}}>
                     <a href="http://localhost:3000/" style={_stylesPerfil.textB2}
                     onMouseEnter={() => setunderlineState("underline")}
                     onMouseLeave={() => setunderlineState("none")}
                     >ferna.nda6911124</a>
-                    <a href="http://localhost:3000/" style={_stylesPerfil.text2}>Sugerido para ti</a>
+                    <div style={_stylesPerfil.text2}>Sugerido para ti</div>
+                </div>  
+                </div>  
                 </div>  
                 <a href="https://www.instagram.com/" style={_stylesPerfil.textR2}>Seguir</a>
             </div>
             <div style={_stylesPerfil.containerSuggest_21}>
+            <div style={{display: "flex"}}>
                 <img src="https://picsum.photos/66/78" alt="" style={_stylesPerfil.img2}/>
                 <div style={_stylesPerfil.cuentaCenter}>
+                <div style={{display: "flex", flexDirection: "column", marginLeft:'20px'}}>
                     <a href="http://localhost:3000/" style={_stylesPerfil.textB3}
                     onMouseEnter={() => setunderlineState3("underline")}
                     onMouseLeave={() => setunderlineState3("none")}
                     >danna.bedoya112</a>
-                    <a href="http://localhost:3000/" style={_stylesPerfil.text2}>Sugerido para ti</a>
+                    <div style={_stylesPerfil.text2}>Sugerido para ti</div>
+                </div>  
+                </div>  
                 </div>  
                 <a href="http://localhost:3000/" style={_stylesPerfil.textR2}>Seguir</a>
             </div>
             <div style={_stylesPerfil.containerSuggest_21}>
+                <div style={{display: "flex"}}>
                 <img src="https://picsum.photos/66/79" alt="" style={_stylesPerfil.img2}/>
                 <div style={_stylesPerfil.cuentaCenter}>
+                <div style={{display: "flex", flexDirection: "column", marginLeft:'20px'}}>
                     <a href="http://localhost:3000/" style={_stylesPerfil.textB4}
                     onMouseEnter={() => setunderlineState4("underline")}
                     onMouseLeave={() => setunderlineState4("none")}
                     >melissaambuilar7</a>
-                    <a href="http://localhost:3000/" style={_stylesPerfil.text2}>Sugerido para ti</a>
+                    <div style={_stylesPerfil.text2}>Sugerido para ti</div>
+                </div>  
+                </div>  
                 </div>  
                 <a href="http://localhost:3000/" style={_stylesPerfil.textR2}>Seguir</a>
             </div>
             <div style={_stylesPerfil.containerSuggest_21}>
+                <div style={{display: "flex"}}>
                 <img src="https://picsum.photos/66/81" alt="" style={_stylesPerfil.img2}/>
                 <div style={_stylesPerfil.cuentaCenter}>
+                <div style={{display: "flex", flexDirection: "column", marginLeft:'20px'}}>
                     <a href="http://localhost:3000/" style={_stylesPerfil.textB5}
                     onMouseEnter={() => setunderlineState2("underline")}
                     onMouseLeave={() => setunderlineState2("none")}
                     >tecnow__1p12p1l</a>
-                    <a href="http://localhost:3000/" style={_stylesPerfil.text2}>Sugerido para ti</a>
+                    <div style={_stylesPerfil.text2}>Sugerido para ti</div>
+                </div>  
+                </div>  
                 </div>  
                 <a href="http://localhost:3000/" style={_stylesPerfil.textR2}>Seguir</a>
             </div>
             <div style={_stylesPerfil.containerSuggest_21}>
-                <img src="https://picsum.photos/66/82" alt="" style={_stylesPerfil.img2}/>
                 <div style={_stylesPerfil.cuentaCenter}>
+                <div style={{display: "flex"}}>
+                <img src="https://picsum.photos/66/82" alt="" style={_stylesPerfil.img2}/>
+                <div style={{display: "flex", flexDirection: "column", marginLeft:'20px'}}>
                     <a href="http://localhost:3000/" style={_stylesPerfil.textB6}
                     onMouseEnter={() => setunderlineState5("underline")}
                     onMouseLeave={() => setunderlineState5("none")}
                     >oscar1029kl_120</a>
-                    <a href="https://www.instagram.com/" style={_stylesPerfil.text2}>Sugerido para ti</a>
+                    <div style={_stylesPerfil.text2}>Sugerido para ti</div>
                 </div>  
+                </div>  
+                </div>
                 <a href="http://localhost:3000/" style={_stylesPerfil.textR2}>Seguir</a>
             </div>
             </div>

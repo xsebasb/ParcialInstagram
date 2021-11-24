@@ -1,7 +1,14 @@
 import React from 'react';
+
+
 const Historias = () => {
     return (
-        <div style={_stylesHistorias.containerHistorias}>
+        <div style={_stylesHistorias.containerHistorias2} id="">
+            <div style={{background: 'url(https://cdn.dsmcdn.com/web/production/slick-arrow.svg) 50% no-repeat',width:'38px',height:'20px', display: 'flex',justifyContent: 'center', margin:'0',padding:'0',transform: 'rotate( 180deg)', trasition: '1s linear', cursor:'pointer',}} onClick={function () {
+                    document.getElementById('historiasID').scrollLeft -= 50;
+                }}>
+            </div>
+            <div style={_stylesHistorias.containerHistorias } id="historiasID">
                 <div style={_stylesHistorias.story}>
                     <div style={_stylesHistorias.profile}>
                         <img src="https://picsum.photos/66/66" alt="" style={_stylesHistorias.img}/>
@@ -83,6 +90,68 @@ const Historias = () => {
                     </p>
                     </div>
                 </div>
+                <div style={_stylesHistorias.story}>
+                    <div style={_stylesHistorias.profile}>
+                        <img src="https://picsum.photos/66/76" alt="" style={_stylesHistorias.img}/>
+                    </div>
+                    <div style={_stylesHistorias.title}>
+                    <p>Camila
+                    </p>
+                    </div>
+                </div>
+
+                <div style={_stylesHistorias.story}>
+                    <div style={_stylesHistorias.profile}>
+                        <img src="https://picsum.photos/66/78" alt="" style={_stylesHistorias.img}/>
+                    </div>
+                    <div style={_stylesHistorias.title}>
+                    <p>Camila
+                    </p>
+                    </div>
+                </div>
+                <div style={_stylesHistorias.story}>
+                    <div style={_stylesHistorias.profile}>
+                        <img src="https://picsum.photos/66/78" alt="" style={_stylesHistorias.img}/>
+                    </div>
+                    <div style={_stylesHistorias.title}>
+                    <p>Camila
+                    </p>
+                    </div>
+                </div>
+                <div style={_stylesHistorias.story}>
+                    <div style={_stylesHistorias.profile}>
+                        <img src="https://picsum.photos/66/78" alt="" style={_stylesHistorias.img}/>
+                    </div>
+                    <div style={_stylesHistorias.title}>
+                    <p>Camila
+                    </p>
+                    </div>
+                </div>
+                <div style={_stylesHistorias.story}>
+                    <div style={_stylesHistorias.profile}>
+                        <img src="https://picsum.photos/66/78" alt="" style={_stylesHistorias.img}/>
+                    </div>
+                    <div style={_stylesHistorias.title}>
+                    <p>Camila
+                    </p>
+                    </div>
+                </div>
+                <div style={_stylesHistorias.story}>
+                    <div style={_stylesHistorias.profile}>
+                        <img src="https://picsum.photos/66/78" alt="" style={_stylesHistorias.img}/>
+                    </div>
+                    <div style={_stylesHistorias.title}>
+                    <p>Camila
+                    </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div style={{background: 'url(https://cdn.dsmcdn.com/web/production/slick-arrow.svg) 50% no-repeat',width:'38px',height:'20px', cursor: 'pointer',}} onClick={function () {
+                    document.getElementById('historiasID').scrollLeft += 50;
+                }}>
+            </div>
         </div>
     )
 }
@@ -90,8 +159,12 @@ const Historias = () => {
 export default Historias;
 const _stylesHistorias = {
     containerHistorias:{
-    width: '100%', height: '80px',background: 'white',border: '1px solid #dbdbdb',borderRadius: '2px', display: 'flex',
-    justifyContent: 'center', alignItems: 'center', gap: '2px'
+    width: '636px', height: '80px',background: 'white',border: '1px solid #dbdbdb',borderRadius: '2px', display: 'flex',
+    justifyContent: 'center', alignItems: 'center', gap: '2px', overflow: 'hidden',borderRight: 'none',borderLeft: 'none',
+    },
+    containerHistorias2:{
+    width: '636px', height: '80px',background: 'white',border: '1px solid #dbdbdb',borderRadius: '2px', display: 'flex',
+    justifyContent: 'center', alignItems: 'center', gap: '2px', overflow: 'hidden',
     },
     story:{
         border:'0',

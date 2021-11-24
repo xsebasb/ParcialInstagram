@@ -19,7 +19,6 @@ const Logueo = () => {
         const contra = e.target.formBasicPassword.value;
 
         if (estaRegistrandose) {
-          //si se registra
             const usuario = await createUserWithEmailAndPassword(
             auth,
             correo,
@@ -27,7 +26,6 @@ const Logueo = () => {
             );
             console.log(usuario);
         }else {
-          // si está iniciando sesión
             signInWithEmailAndPassword(auth, correo, contra);
         }
         }
@@ -183,7 +181,6 @@ const _stylesLogueo = {
     },
     containerLogueoInstagram:{
         gridColumn: '2 / 3',
-        // backgroundColor:'yellow',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',

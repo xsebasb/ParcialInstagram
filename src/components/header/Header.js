@@ -25,6 +25,7 @@ const _stylesHeader = {
         alignItems: 'center',
         border: '1px solid #dbdbdb',
         marginBottom: '30px',
+        zIndex:'2000'
 
     },
 };
